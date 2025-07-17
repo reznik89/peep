@@ -1,12 +1,12 @@
 [gd_scene load_steps=11 format=3 uid="uid://ninnims84b72"]
 
 [ext_resource type="Script" uid="uid://cjsf0bmbpmh4e" path="res://scripts/enemy.gd" id="1_md484"]
-[ext_resource type="Texture2D" uid="uid://00arcmxho0pe" path="res://assets/Treasure Hunters/Shooter Traps/The Crusty Crew/Sprites/Crabby/02-Run/Run 01.png" id="1_nenq2"]
-[ext_resource type="Texture2D" uid="uid://bb42xpl2hp4xw" path="res://assets/Treasure Hunters/Shooter Traps/The Crusty Crew/Sprites/Crabby/02-Run/Run 02.png" id="2_md484"]
-[ext_resource type="Texture2D" uid="uid://d01lb64ptf70a" path="res://assets/Treasure Hunters/Shooter Traps/The Crusty Crew/Sprites/Crabby/02-Run/Run 03.png" id="3_ipns3"]
-[ext_resource type="Texture2D" uid="uid://bvuvxhu7mie5l" path="res://assets/Treasure Hunters/Shooter Traps/The Crusty Crew/Sprites/Crabby/02-Run/Run 04.png" id="4_8qclf"]
-[ext_resource type="Texture2D" uid="uid://dgq1culj4fqpb" path="res://assets/Treasure Hunters/Shooter Traps/The Crusty Crew/Sprites/Crabby/02-Run/Run 05.png" id="5_w8i8w"]
-[ext_resource type="Texture2D" uid="uid://bbai0ads5o8wm" path="res://assets/Treasure Hunters/Shooter Traps/The Crusty Crew/Sprites/Crabby/02-Run/Run 06.png" id="6_otmr2"]
+[ext_resource type="Texture2D" path="res://assets/Treasure Hunters/Shooter Traps/The Crusty Crew/Sprites/Crabby/02-Run/Run 01.png" id="1_nenq2"]
+[ext_resource type="Texture2D" path="res://assets/Treasure Hunters/Shooter Traps/The Crusty Crew/Sprites/Crabby/02-Run/Run 02.png" id="2_md484"]
+[ext_resource type="Texture2D" path="res://assets/Treasure Hunters/Shooter Traps/The Crusty Crew/Sprites/Crabby/02-Run/Run 03.png" id="3_ipns3"]
+[ext_resource type="Texture2D" path="res://assets/Treasure Hunters/Shooter Traps/The Crusty Crew/Sprites/Crabby/02-Run/Run 04.png" id="4_8qclf"]
+[ext_resource type="Texture2D" path="res://assets/Treasure Hunters/Shooter Traps/The Crusty Crew/Sprites/Crabby/02-Run/Run 05.png" id="5_w8i8w"]
+[ext_resource type="Texture2D" path="res://assets/Treasure Hunters/Shooter Traps/The Crusty Crew/Sprites/Crabby/02-Run/Run 06.png" id="6_otmr2"]
 [ext_resource type="PackedScene" uid="uid://oa5jv2bgyxvp" path="res://scenes/kill_zone.tscn" id="7_wtq4b"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_j0cyh"]

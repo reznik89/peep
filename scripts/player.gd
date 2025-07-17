@@ -11,12 +11,14 @@ func add_coin():
 const SPEED = 140.0
 const JUMP_VELOCITY = -300.0
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
+@onready var collision_shape_2d: CollisionShape2D = $CollisionShape2D
 
 
 
 
 
-
+func _ready():
+	Events.on_hit.connect(player_death)
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
@@ -51,3 +53,7 @@ func _physics_process(delta: float) -> void:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 	
 	move_and_slide()
+	
+func player_death():
+	velocity.y = JUMP_VELOCITY / 2
+	collision_shape_2d.queue_free()
